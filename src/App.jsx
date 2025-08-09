@@ -12,6 +12,7 @@ import {
 } from "lucide-react";
 import { QUENTINHAS } from "./data.js";
 import neide from "./assets/neide.jpg";
+import { FaWhatsappSquare, FaInstagram } from "react-icons/fa";
 
 function App() {
   const [cart, setCart] = useState([]);
@@ -95,6 +96,8 @@ function App() {
     setCustomer({ name: "", phone: "", email: "", address: "" });
     setIsModalOpen(false);
   };
+  const whatsappNumber = "557399099040";
+  const instagramUsername = "fabioniloss";
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-orange-50 to-red-50">
@@ -387,6 +390,40 @@ function App() {
           <span className="font-semibold">Item adicionado ao carrinho!</span>
         </div>
       )}
+      <footer className="bg-gray-100 py-6 mt-8 shadow-inner">
+        <div className="container mx-auto px-4 text-center">
+          <p className="text-gray-600 mb-2">
+            © {new Date().getFullYear()} Neide Congelados. Todos os direitos
+            reservados.
+          </p>
+          <p className="text-gray-700 mb-4 text-sm">
+            Desenvolvido por{" "}
+            <a className="text-blue-600 hover:underline font-semibold">
+              Fabio Soares - Desenvolvedor Front-End
+            </a>
+          </p>
+          <div className="flex justify-center items-center space-x-6">
+            <a
+              href={`https://wa.me/${whatsappNumber}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-500 hover:text-green-500 text-2xl transition-colors"
+              title="Fale comigo no WhatsApp"
+            >
+              <FaWhatsappSquare />
+            </a>
+            <a
+              href="https://instagram.com/fabioniloss"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-500 hover:text-pink-500 text-2xl transition-colors"
+              title="Veja meu trabalho no Instagram"
+            >
+              <FaInstagram />
+            </a>
+          </div>
+        </div>
+      </footer>
       {/* Adicione estilos para a animação do modal de sucesso */}
       <style>{`
         @keyframes fade-in-down {
