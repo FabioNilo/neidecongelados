@@ -71,7 +71,7 @@ function App() {
   const sendToWhatsApp = () => {
     const whatsappNumber = "557399825-3365";
 
-    let message = `🍽️ *NOVO PEDIDO - QUENTINHAS CONGELADAS*\n\n`;
+    let message = `🍽️ *NOVO PEDIDO - MARMITA CONGELADAS*\n\n`;
     message += `👤 *Cliente:* ${customer.name}\n`;
     message += `📱 *Telefone:* ${customer.phone}\n`;
     message += `📧 *Email:* ${customer.email}\n`;
@@ -143,7 +143,7 @@ function App() {
         <section className="bg-gradient-to-r from-orange-400 to-red-400 text-white py-16">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-5xl font-bold mb-4">
-              🔥 QUENTINHAS Congeladas Premium
+              🔥MARMITAS Congeladas Premium
             </h2>
             <p className="text-xl mb-8 max-w-2xl mx-auto">
               Refeições completas, nutritivas e deliciosas. Descongele, aqueça e
@@ -424,7 +424,6 @@ function App() {
           </div>
         </div>
       </footer>
-      {/* Adicione estilos para a animação do modal de sucesso */}
       <style>{`
         @keyframes fade-in-down {
           from {
