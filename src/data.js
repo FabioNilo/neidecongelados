@@ -1,9 +1,8 @@
 import FrangoEmpanado from "./assets/Im1FE.jpg";
-import FrangoCouve from "./assets/IMFE3.jpg";
 import CM from "./assets/IMCM.jpg";
 import FrangoES from "./assets/IMFE2.jpg";
 import FrangoDes from "./assets/IMFD.jpg";
-import FrangoA from "./assets/IMGFA.jpg";
+import FrangoDes2 from "./assets/FrangoDes2.jpg";
 import FrangoPQ from "./assets/IMGPF.jpg";
 import BifeMolho from './assets/BifeMolho.jpg'
 import CarneSol from './assets/CarneSol.jpg'
@@ -29,33 +28,23 @@ import BifeMilanesa3 from './assets/BifeMilanesa3.jpg'
 export  const QUENTINHAS = [
     {
       id: 1,
-      name: "Quentinha Frango Empanado",
+      name: " Frango Empanado com bacon",
       protein: "Frango Empanado",
-      ingredients:
-        "Frango empanado com quiabo e bacon frito, purê de abóbora  brócolisecouve-flor",
+      ingredients: "Frango empanado com quiabo e bacon frito, purê de abóbora, brócolis e couve-flor",
       price: 20,
       image: FrangoEmpanado,
     },
     {
       id: 2,
-      name: "Quentinha Frango Empanado",
-      protein: "Frango Empanado",
-      ingredients:
-        "Frango empanado, couve-flor, cenoura refogada, macarrão com brócolis",
-      price: 20,
-      image: FrangoCouve,
-    },
-    {
-      id: 3,
-      name: "Quentinha Carne Moída",
+      name: " Carne Moída",
       protein: "Carne Moída",
       ingredients: "Carne moída, seleta de legumes, purê de aimpim",
       price: 20,
       image: CM,
     },
     {
-      id: 4,
-      name: "Quentinha Frango Empanado Especial",
+      id: 3,
+      name: " Frango Empanado Especial",
       protein: "Frango Empanado",
       ingredients:
         "Frango empanado, purê de abóbora, macarrão com brócolis, batatas assadas",
@@ -63,24 +52,24 @@ export  const QUENTINHAS = [
       image: FrangoES,
     },
     {
-      id: 5,
-      name: "Quentinha Frango Desfiado",
+      id: 4,
+      name: " Frango Desfiado",
       protein: "Frango Desfiado",
       ingredients: "Frango desfiado, seleta de legumes, arroz e feijão",
       price: 20, 
       image: FrangoDes
     },
-    {
-      id: 6,
-      name: "Quentinha Frango Assado",
-      protein: "Frango Assado",
-      ingredients: "Frango assado, beterraba, arroz e feijão",
+{
+      id: 5,
+      name: " Frango Desfiado com mix de legumes",
+      protein: "Frango Desfiado",
+      ingredients: "Frango desfiado, purê de batatas e mix de legumes",
       price: 20, 
-      image: FrangoA
+      image: FrangoDes2
     },
     {
       id: 7,
-      name: "Quentinha Panqueca de Frango",
+      name: " Panqueca de Frango",
       protein: "Panqueca de Frango",
       ingredients:
         "Panqueca de frango, arroz integral, seleta de legumes e brócolis",
@@ -89,7 +78,7 @@ export  const QUENTINHAS = [
     },
     {
     id: 8,
-    name: "Quentinha Bife ao Molho",
+    name: " Bife ao Molho",
     protein: "Bife ao molho",
     ingredients: "Bife ao molho, batata sauté, arroz e feijão",
     price: 20,
@@ -97,7 +86,7 @@ export  const QUENTINHAS = [
   },
   {
     id: 9,
-    name: "Quentinha Lombo Recheado",
+    name: " Lombo Recheado",
     protein: "Lombo recheado",
     ingredients: "Lombo recheado, seleta de legumes refogada, arroz e feijão",
     price: 20,
@@ -105,7 +94,7 @@ export  const QUENTINHAS = [
   },
   {
     id: 10,
-    name: "Quentinha Coxas Assadas com Maionese",
+    name: " Coxas Assadas com Maionese",
     protein: "Coxas de frango assadas com maionese",
     ingredients: "Coxas de frango assadas com maionese, purê de batatas, mix de legumes e abóbora cabotiá assada",
     price: 20,
@@ -113,7 +102,7 @@ export  const QUENTINHAS = [
   },
   {
     id: 11,
-    name: "Quentinha Isca ao Molho Madeira",
+    name: " Isca ao Molho Madeira",
     protein: "Isca de carne ao molho madeira",
     ingredients: "Isca de carne ao molho madeira, purê de aimpim e seleta de legumes refogada",
     price: 20,
@@ -121,7 +110,7 @@ export  const QUENTINHAS = [
   },
   {
     id: 12,
-    name: "Quentinha Carne do Sol",
+    name: " Carne do Sol",
     protein: "Carne do sol assada",
     ingredients: "Carne do sol assada, purê de banana da terra, arroz e mix de legumes",
     price: 25,
@@ -129,23 +118,23 @@ export  const QUENTINHAS = [
   },
   {
     id: 13,
-    name: "Quentinha Tilápia com Ervas",
-    protein: "Filé de tilápia com molho de ervas",
-    ingredients: "Filé de tilápia com molho de ervas, purê de banana da terra, arroz e mix de legumes",
+    name: " Filé de peixe ao molho de ervas",
+    protein: "Filé de peixe com molho de ervas",
+    ingredients: "Filé de peixe com molho de ervas, purê de banana da terra, arroz e mix de legumes",
     price: 25,
     image: FileTilapia
   },
   {
     id: 14,
-    name: "Quentinha Tilápia Cremosa",
-    protein: "Filé de tilápia com legumes e molho cremoso",
-    ingredients: "Filé de tilápia com legumes e molho cremoso, purê de abóbora e arroz",
+    name: " Filé de peixe ao molho cremoso",
+    protein: "Filé de peixe com legumes e molho cremoso",
+    ingredients: "Filé de peixe com legumes e molho cremoso, purê de abóbora e arroz",
     price: 25,
     image: FileTilapia2
   },
   {
     id: 15,
-    name: "Quentinha Frango Xadrez",
+    name: " Frango Xadrez",
     protein: "Frango xadrez",
     ingredients: "Frango xadrez, purê de batatas e mix de legumes",
     price: 20,
@@ -153,7 +142,7 @@ export  const QUENTINHAS = [
   },
   {
     id: 16,
-    name: "Quentinha Bife ao Molho",
+    name: " Bife ao Molho",
     protein: "Bife ao molho",
     ingredients: "Bife ao molho, feijão, arroz e mix de legumes",
     price: 20,
@@ -161,7 +150,7 @@ export  const QUENTINHAS = [
   },
   {
     id: 17,
-    name: "Quentinha Bife ao Molho com Purê",
+    name: " Bife ao Molho com Purê",
     protein: "Bife ao molho",
     ingredients: "Bife ao molho, purê de abóbora, arroz e mix de legumes",
     price: 20,
@@ -169,7 +158,7 @@ export  const QUENTINHAS = [
   },
   {
     id: 18,
-    name: "Quentinha Maminha Assada",
+    name: " Maminha Assada",
     protein: "Maminha assada",
     ingredients: "Maminha assada, purê de abóbora, arroz e batata assada",
     price: 25,
@@ -177,23 +166,15 @@ export  const QUENTINHAS = [
   },
   {
     id: 19,
-    name: "Quentinha Carne de Panela",
+    name: " Carne de Panela",
     protein: "Carne de panela",
     ingredients: "Carne de panela, arroz, feijão e mix de legumes",
     price: 20,
     image: CarnePanela
   },
   {
-    id: 20,
-    name: "Quentinha Filé de Tilápia com Ervas",
-    protein: "Filé de tilápia com molho de ervas",
-    ingredients: "Filé de tilápia com molho de ervas, purê de banana da terra, mix de legumes e arroz",
-    price: 25,
-    image: FileTilapia3
-  },
-  {
     id: 21,
-    name: "Quentinha Peixe Empanado",
+    name: " Peixe Empanado",
     protein: "Peixe empanado",
     ingredients: "Peixe empanado, purê de banana da terra, milho, ervilhas refogadas e arroz",
     price: 25,
@@ -201,7 +182,7 @@ export  const QUENTINHAS = [
   },
   {
     id: 22,
-    name: "Quentinha Frango Acebolado",
+    name: " Frango Acebolado",
     protein: "Frango acebolado",
     ingredients: "Frango acebolado, purê de batatas, milho, ervilhas frescas e legumes refogados",
     price: 20,
@@ -209,7 +190,7 @@ export  const QUENTINHAS = [
   },
   {
     id: 23,
-    name: "Quentinha Bife a Milanesa com Purê",
+    name: " Bife a Milanesa com Purê",
     protein: "Bife a milanesa",
     ingredients: "Bife a milanesa, purê de abóbora, macarrão ao alho e óleo e legumes refogados",
     price: 20,
@@ -217,7 +198,7 @@ export  const QUENTINHAS = [
   },
   {
     id: 24,
-    name: "Quentinha Bife a Milanesa",
+    name: " Bife a Milanesa",
     protein: "Bife a milanesa",
     ingredients: "Bife a milanesa, macarrão e mix de legumes",
     price: 20,
@@ -225,7 +206,7 @@ export  const QUENTINHAS = [
   },
   {
     id: 25,
-    name: "Quentinha Peixe Empanado com Cabotiá",
+    name: " Peixe Empanado com Cabotiá",
     protein: "Peixe empanado",
     ingredients: "Peixe empanado, arroz, purê de banana da terra e cabotiá assada",
     price: 25,
@@ -233,7 +214,7 @@ export  const QUENTINHAS = [
   },
   {
     id: 26,
-    name: "Quentinha Peixe Empanado com Brócolis",
+    name: " Peixe Empanado com Brócolis",
     protein: "Peixe empanado",
     ingredients: "Peixe empanado, arroz, brócolis e cabotiá assada",
     price: 25,
@@ -241,10 +222,11 @@ export  const QUENTINHAS = [
   },
   {
     id: 27,
-    name: "Quentinha Bife a Milanesa com Cabotiá",
+    name: " Bife a Milanesa com Cabotiá",
     protein: "Bife a milanesa",
     ingredients: "Bife a milanesa, cabotiá assada, macarrão ao alho e óleo e brócolis",
     price: 20,
     image: BifeMilanesa3
-  }
+  },
+ 
 ];
