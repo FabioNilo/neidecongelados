@@ -168,6 +168,49 @@ function App() {
         <div className="container mx-auto px-4 py-8">
           <div className="grid lg:grid-cols-3 gap-8">
             {/* Products Section */}
+            <div className="lg:col-span-2">
+              <h3 className="text-3xl font-bold text-gray-800 mb-8 text-center">
+                🍽️ Nossos Sabores
+              </h3>
+              <div className="grid md:grid-cols-2 gap-6">
+                {QUENTINHAS.map((quentinha) => (
+                  <div
+                    key={quentinha.id}
+                    className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-shadow"
+                  >
+                    <img
+                      src={quentinha.image}
+                      alt={quentinha.name}
+                      className="w-full h-48 object-cover"
+                    />
+                    <div className="p-6">
+                      <h4 className="text-xl font-bold text-gray-800 mb-2">
+                        {quentinha.name}
+                      </h4>
+                      <div className="bg-orange-100 border-l-4 border-orange-500 p-3 mb-4">
+                        <p className="text-sm text-orange-700 font-semibold mb-1">
+                          🥩 Proteína: {quentinha.protein}
+                        </p>
+                        <p className="text-sm text-gray-600">
+                          {quentinha.ingredients}
+                        </p>
+                      </div>
+                      <div className="flex items-center justify-between">
+                        <span className="text-2xl font-bold text-green-600">
+                          R$ {quentinha.price.toFixed(2)}
+                        </span>
+                        <button
+                          onClick={() => addToCart(quentinha)}
+                          className="bg-gradient-to-r from-orange-500 to-red-500 text-white px-6 py-3 rounded-full hover:from-orange-600 hover:to-red-600 transition-all font-semibold shadow-lg hover:shadow-xl"
+                        >
+                          Adicionar ao Carrinho
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
 
             {/* Customer Form */}
             <div className="bg-white rounded-2xl shadow-xl p-6 h-fit">
@@ -231,49 +274,6 @@ function App() {
                     placeholder="Rua, número, bairro, cidade, CEP"
                   />
                 </div>
-              </div>
-            </div>
-            <div className="lg:col-span-2">
-              <h3 className="text-3xl font-bold text-gray-800 mb-8 text-center">
-                🍽️ Nossos Sabores
-              </h3>
-              <div className="grid md:grid-cols-2 gap-6">
-                {QUENTINHAS.map((quentinha) => (
-                  <div
-                    key={quentinha.id}
-                    className="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-shadow"
-                  >
-                    <img
-                      src={quentinha.image}
-                      alt={quentinha.name}
-                      className="w-full h-48 object-cover"
-                    />
-                    <div className="p-6">
-                      <h4 className="text-xl font-bold text-gray-800 mb-2">
-                        {quentinha.name}
-                      </h4>
-                      <div className="bg-orange-100 border-l-4 border-orange-500 p-3 mb-4">
-                        <p className="text-sm text-orange-700 font-semibold mb-1">
-                          🥩 Proteína: {quentinha.protein}
-                        </p>
-                        <p className="text-sm text-gray-600">
-                          {quentinha.ingredients}
-                        </p>
-                      </div>
-                      <div className="flex items-center justify-between">
-                        <span className="text-2xl font-bold text-green-600">
-                          R$ {quentinha.price.toFixed(2)}
-                        </span>
-                        <button
-                          onClick={() => addToCart(quentinha)}
-                          className="bg-gradient-to-r from-orange-500 to-red-500 text-white px-6 py-3 rounded-full hover:from-orange-600 hover:to-red-600 transition-all font-semibold shadow-lg hover:shadow-xl"
-                        >
-                          Adicionar ao Carrinho
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                ))}
               </div>
             </div>
           </div>
