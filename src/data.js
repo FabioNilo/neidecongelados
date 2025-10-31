@@ -173,14 +173,6 @@ export  const QUENTINHAS = [
     image: CarnePanela
   },
   {
-    id: 21,
-    name: " Peixe Empanado",
-    protein: "Peixe empanado",
-    ingredients: "Peixe empanado, purê de banana da terra, milho, ervilhas refogadas e arroz",
-    price: 25,
-    image: PeixeEmpanado
-  },
-  {
     id: 22,
     name: " Frango Acebolado",
     protein: "Frango acebolado",
@@ -204,22 +196,7 @@ export  const QUENTINHAS = [
     price: 20,
     image: BifeMilanesa2
   },
-  {
-    id: 25,
-    name: " Peixe Empanado com Cabotiá",
-    protein: "Peixe empanado",
-    ingredients: "Peixe empanado, arroz, purê de banana da terra e cabotiá assada",
-    price: 25,
-    image: PeixeEmpanado2
-  },
-  {
-    id: 26,
-    name: " Peixe Empanado com Brócolis",
-    protein: "Peixe empanado",
-    ingredients: "Peixe empanado, arroz, brócolis e cabotiá assada",
-    price: 25,
-    image: PeixeEmpanado3
-  },
+
   {
     id: 27,
     name: " Bife a Milanesa com Cabotiá",
