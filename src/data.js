@@ -1,13 +1,10 @@
 import FrangoEmpanado from "./assets/Im1FE.jpg";
 import CM from "./assets/IMCM.jpg";
-
 import FrangoDes2 from "./assets/FrangoDes2.jpg";
 import FrangoPQ from "./assets/IMGPF.jpg";
-import BifeMolho from './assets/BifeMolho.jpg'
 import CarneSol from './assets/CarneSol.jpg'
 import Lombo from './assets/LomboRecheado.jpg'
 import CoxaFrango from './assets/CoxaFrango.jpg'
-import IscaCarne from './assets/IscaCarne.jpg'
 import FileTilapia from './assets/TilapiaFile.jpg'
 import FileTilapia2 from './assets/TilapiaFile2.jpg'
 import FrangoXadrez from './assets/FrangoXadrez.jpg'
@@ -15,14 +12,9 @@ import BifeMolho2 from './assets/BifeMolho2.jpg'
 import BifeMolho3 from './assets/BifeMolho3.jpg'
 import MaminhaAssada from './assets/MaminhaAssada.jpg'
 import CarnePanela from './assets/CarnePanela.jpg'
-import FileTilapia3 from './assets/FileTilapia3.jpg'
-import PeixeEmpanado from './assets/PeixeEmpanado.jpg'
-import FrangoAcebolado from './assets/FrangoAcebolado.jpg'
+
 import BifeMilanesa from './assets/BifeMilanesa.jpg'
-import BifeMilanesa2 from './assets/BifeMilanesa2.jpg'
-import PeixeEmpanado2 from './assets/PeixeEmpanado2.jpg'
-import PeixeEmpanado3 from './assets/PeixeEmpanado3.jpg'
-import BifeMilanesa3 from './assets/BifeMilanesa3.jpg'
+
 
 export const QUENTINHAS = [
   // 🍗 FRANGO
