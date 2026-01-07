@@ -69,7 +69,7 @@ function App() {
   };
 
   const sendToWhatsApp = () => {
-    const whatsappNumber = "557399825-3365";
+    const whatsappNumber = "5573998253365";
 
     let message = `🍽️ *NOVO PEDIDO - MARMITA CONGELADAS*\n\n`;
     message += `👤 *Cliente:* ${customer.name}\n`;
@@ -87,9 +87,27 @@ function App() {
     message += `\n💰 *TOTAL: R$ ${getTotalPrice().toFixed(2)}*`;
 
     const encodedMessage = encodeURIComponent(message);
-    const whatsappUrl = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${encodedMessage}`;
 
-    window.open(whatsappUrl, "_blank");
+    // Normalize phone (remove non-digits)
+    const normalizedNumber = whatsappNumber.replace(/\D/g, "");
+
+    // URLs: wa.me (universal link) and native deep link
+    const waMeUrl = `https://wa.me/${normalizedNumber}?text=${encodedMessage}`;
+    const whatsappAppUrl = `whatsapp://send?phone=${normalizedNumber}&text=${encodedMessage}`;
+
+    // Detect iOS to prefer universal link (wa.me) which opens the app if installed
+    const isIOS =
+      /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+
+    if (isIOS) {
+      window.location.href = waMeUrl;
+    } else {
+      // Try native app deep link first, then fallback to wa.me after 500ms
+      window.location.href = whatsappAppUrl;
+      setTimeout(() => {
+        window.location.href = waMeUrl;
+      }, 500);
+    }
 
     // Limpar carrinho e dados após envio
     setCart([]);
