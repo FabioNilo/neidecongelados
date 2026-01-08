@@ -23,7 +23,7 @@ export const QUENTINHAS = [
     name: "Frango Empanado com Bacon",
     protein: "Frango",
     ingredients: "Frango empanado com quiabo e bacon frito, purê de abóbora, brócolis e couve-flor",
-    price: 20,
+    price: 24,
     image: FrangoEmpanado,
   },
   {
@@ -31,7 +31,7 @@ export const QUENTINHAS = [
     name: "Frango Desfiado com Mix de Legumes",
     protein: "Frango",
     ingredients: "Frango desfiado, purê de batatas e mix de legumes",
-    price: 20,
+    price: 24,
     image: FrangoDes2,
   },
   {
@@ -39,7 +39,7 @@ export const QUENTINHAS = [
     name: "Panqueca de Frango",
     protein: "Frango",
     ingredients: "Panqueca de frango, arroz integral, seleta de legumes e brócolis",
-    price: 20,
+    price: 24,
     image: FrangoPQ,
   },
   {
@@ -47,7 +47,7 @@ export const QUENTINHAS = [
     name: "Coxas Assadas com Maionese",
     protein: "Frango",
     ingredients: "Coxas de frango assadas com maionese, purê de batatas, mix de legumes e abóbora cabotiá assada",
-    price: 20,
+    price: 24,
     image: CoxaFrango,
   },
   {
@@ -55,7 +55,7 @@ export const QUENTINHAS = [
     name: "Frango Xadrez",
     protein: "Frango",
     ingredients: "Frango xadrez, purê de batatas e mix de legumes",
-    price: 20,
+    price: 24,
     image: FrangoXadrez,
   },
 
@@ -65,7 +65,7 @@ export const QUENTINHAS = [
     name: "Carne Moída",
     protein: "Carne",
     ingredients: "Carne moída, seleta de legumes e purê de aipim",
-    price: 20,
+    price: 24,
     image: CM,
   },
   {
@@ -73,7 +73,7 @@ export const QUENTINHAS = [
     name: "Carne de Panela",
     protein: "Carne",
     ingredients: "Carne de panela, arroz, feijão e mix de legumes",
-    price: 20,
+    price: 24,
     image: CarnePanela,
   },
   {
@@ -81,7 +81,7 @@ export const QUENTINHAS = [
     name: "Lombo Recheado",
     protein: "Carne",
     ingredients: "Lombo recheado, seleta de legumes refogada, arroz e feijão",
-    price: 20,
+    price: 24,
     image: Lombo,
   },
 
@@ -91,7 +91,7 @@ export const QUENTINHAS = [
     name: "Bife ao Molho",
     protein: "Bife",
     ingredients: "Bife ao molho, feijão, arroz e mix de legumes",
-    price: 20,
+    price: 24,
     image: BifeMolho2,
   },
   {
@@ -99,7 +99,7 @@ export const QUENTINHAS = [
     name: "Bife ao Molho com Purê",
     protein: "Bife",
     ingredients: "Bife ao molho, purê de abóbora, arroz e mix de legumes",
-    price: 20,
+    price: 24,
     image: BifeMolho3,
   },
   {
@@ -107,7 +107,7 @@ export const QUENTINHAS = [
     name: "Bife à Milanesa com Purê",
     protein: "Bife",
     ingredients: "Bife à milanesa, purê de abóbora, macarrão ao alho e óleo e legumes refogados",
-    price: 20,
+    price: 24,
     image: BifeMilanesa,
   },
 
@@ -117,7 +117,7 @@ export const QUENTINHAS = [
     name: "Carne do Sol",
     protein: "Carne do Sol",
     ingredients: "Carne do sol assada, purê de banana da terra, arroz e mix de legumes",
-    price: 25,
+    price: 28,
     image: CarneSol,
   },
   {
@@ -125,7 +125,7 @@ export const QUENTINHAS = [
     name: "Maminha Assada",
     protein: "Maminha",
     ingredients: "Maminha assada, purê de abóbora, arroz e batata assada",
-    price: 25,
+    price: 28,
     image: MaminhaAssada,
   },
   {
@@ -133,7 +133,7 @@ export const QUENTINHAS = [
     name: "Filé de Peixe ao Molho de Ervas",
     protein: "Peixe",
     ingredients: "Filé de peixe com molho de ervas, purê de banana da terra, arroz e mix de legumes",
-    price: 25,
+    price: 28,
     image: FileTilapia,
   },
   {
@@ -141,7 +141,7 @@ export const QUENTINHAS = [
     name: "Filé de Peixe ao Molho Cremoso",
     protein: "Peixe",
     ingredients: "Filé de peixe com legumes e molho cremoso, purê de abóbora e arroz",
-    price: 25,
+    price: 28,
     image: FileTilapia2,
   },
 ];
